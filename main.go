@@ -18,13 +18,13 @@ func main() {
 	var f_op int
 	var s_op int
 
-	fmt.Println("Enter the first number")
+	fmt.Println("Enter the first digit")
 	if _, err := fmt.Scan(&f_op); err != nil {
 		log.Print("Failed to scan first number", err)
 		return
 	}
 
-	fmt.Println("Enter the second number")
+	fmt.Println("Enter the second digit")
 	if _, err := fmt.Scan(&s_op); err != nil {
 		log.Print("Failed to scan second number", err)
 		return
