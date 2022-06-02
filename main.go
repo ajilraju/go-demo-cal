@@ -18,6 +18,8 @@ func main() {
 	var f_op int
 	var s_op int
 
+	fmt.Println("Golang Demo calculator")
+	fmt.Println("======================\n")
 	fmt.Println("Enter the first digit")
 	if _, err := fmt.Scan(&f_op); err != nil {
 		log.Print("Failed to scan first number", err)
