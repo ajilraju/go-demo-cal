@@ -6,6 +6,8 @@ import (
 	"os"
 )
 
+var APP_VERSION string = "1.0.0"
+
 var (
 	BOLD   string = "\033[1m"
 	YELLOW string = "\033[93m"
@@ -25,6 +27,15 @@ func main() {
 
 	var firstNum int
 	var secondNum int
+
+	if len(os.Args) == 2 {
+		if os.Args[1] == "-v" {
+			fmt.Printf("%sAncient simple Calculator: %s%s\n", BOLD, APP_VERSION, END)
+			return
+		} else {
+			return
+		}
+	}
 
 	fmt.Printf("%sAncient simple Calculator%s\n\n", BOLD, END)
 
