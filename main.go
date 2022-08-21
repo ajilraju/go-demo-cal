@@ -6,7 +6,7 @@ import (
     "os"
 )
 
-var APP_VERSION string = "1.0.0"
+var VERSION string = "1.0.0"
 
 var (
     BOLD   string = "\033[1m"
@@ -30,7 +30,7 @@ func main() {
 
     if len(os.Args) == 2 {
         if os.Args[1] == "-v" {
-            fmt.Printf("%sAncient simple Calculator: %s%s\n", BOLD, APP_VERSION, END)
+            fmt.Printf("%sAncient simple Calculator: %s%s\n", BOLD, VERSION, END)
             return
         } else {
             return
