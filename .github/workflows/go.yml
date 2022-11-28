@@ -30,11 +30,5 @@ jobs:
     - name: Archive artifcats
       uses: actions/upload-artifact@v3.1.1
       with:
-        name: simple-cal
+        name: Download the App
         path: ./simple-cal
-    
-    - name: Download a Build Artifact
-      uses: actions/download-artifact@v3.0.1
-      with:
-        name: simple-cal
-        path: ./
