@@ -22,7 +22,12 @@ jobs:
         go-version: 1.18
 
     - name: Build
-      run: go build -v ./...
+      run: go build -v -o simple-cal ./...
 
     - name: Test
       run: go test -v ./...
+    
+    - name: Archive artifcats
+      uses: actions/upload-artifact@v3.1.1
+      with:
+        name: ./simple-cal
