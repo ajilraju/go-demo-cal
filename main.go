@@ -61,6 +61,6 @@ func main() {
 
     fmt.Printf("%sSum     [ %d + %d = %d ]%s\n", BLUE, firstNum, secondNum, add(firstNum, secondNum), END)
     fmt.Printf("%sProduct [ %d * %d = %d ]%s\n", YELLOW, firstNum, secondNum, multi(firstNum, secondNum), END)
-    fmt.Printf("%sDifference [ %d * %d = %d ]%s\n", BLUE, firstNum, secondNum, sub(firstNum, secondNum), END)
-    fmt.Printf("%sQuotient [ %d * %d = %d ]%s\n", YELLOW, firstNum, secondNum, div(firstNum, secondNum), END)
+    fmt.Printf("%sDifference [ %d - %d = %d ]%s\n", BLUE, firstNum, secondNum, sub(firstNum, secondNum), END)
+    fmt.Printf("%sQuotient [ %d / %d = %d ]%s\n", YELLOW, firstNum, secondNum, div(firstNum, secondNum), END)
 }
