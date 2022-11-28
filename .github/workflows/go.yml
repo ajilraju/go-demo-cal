@@ -26,6 +26,11 @@ jobs:
 
     - name: Test
       run: go test -v ./...
+      
+    - name: Check code coverage
+      uses: codecov/codecov-action@v3
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
     
     - name: Archive artifcats
       uses: actions/upload-artifact@v3.1.1
