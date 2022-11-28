@@ -32,3 +32,9 @@ jobs:
       with:
         name: simple-cal
         path: ./simple-cal
+    
+    - name: Download a Build Artifact
+      uses: actions/download-artifact@v3.0.1
+      with:
+        name: simple-cal
+        path: ./
