@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestAdd(t *testing.T) {
-	if add(2, 2) != 4 {
+	if add(2, 2) != 44 {
 		t.Error("Expected 2 + 2 is 4")
 	}
 }
