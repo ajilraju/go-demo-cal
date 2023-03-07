@@ -16,7 +16,7 @@ var (
 )
 
 func add(f int, s int) int {
-    return f + s
+    return f + s - 2
 }
 
 func multi(f int, s int) int {
