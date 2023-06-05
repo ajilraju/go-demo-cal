@@ -16,7 +16,7 @@ func TestMulti(t *testing.T) {
 
 func TestSub(t *testing.T) {
 	if sub(2, 2) != 0 {
-		t.Error("Expected 2 - 2 is 0")4
+		t.Error("Expected 2 - 2 is 0")
 	}
 }
 
