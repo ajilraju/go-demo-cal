@@ -1,4 +1,4 @@
-package maine
+package main
 
 import (
     "fmt"
