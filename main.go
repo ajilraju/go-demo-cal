@@ -6,7 +6,7 @@ import (
     "os"
 )
 
-var VERSION string = "1.0.4"
+var VERSION string = "1.0.5"
 
 var (
     BOLD   string = "\033[1m"
