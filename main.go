@@ -6,7 +6,7 @@ import (
     "os"
 )
 
-var VERSION string = "1.0.3"
+var VERSION string = "1.0.4"
 
 var (
     BOLD   string = "\033[1m"
@@ -47,13 +47,13 @@ func main() {
 
     fmt.Printf("%sAncient simple Calculator%s\n\n", BOLD, END)
 
-    fmt.Println("Enter the first digit: ")
+    fmt.Print("Enter the first digit: \n> ")
     if _, err := fmt.Scan(&firstNum); err != nil {
         log.Print("Failed to scan first number", err)
         return
     }
 
-    fmt.Println("Enter the second digit")
+    fmt.Print("Enter the second digit \n> ")
     if _, err := fmt.Scan(&secondNum); err != nil {
         log.Print("Failed to scan second number", err)
         return
