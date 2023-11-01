@@ -39,13 +39,14 @@ jobs:
   release:
     needs: build  # Ensure that the 'build' job is completed before creating a release
     runs-on: ubuntu-latest
+    steps:
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.run_number }}
-          release_name: Release ${{ github.run_number }}
+          tag_name: 1
+          release_name: Release 1
           draft: false
           prerelease: false
