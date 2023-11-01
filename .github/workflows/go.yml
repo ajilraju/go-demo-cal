@@ -35,6 +35,9 @@ jobs:
         with:
           name: Release Artifacts
           path: ./simple-cal
+      - name: Print github.ref
+        run: echo "GitHub ref: ${{ github.ref }}"
+
 
   release:
     needs: build  # Ensure that the 'build' job is completed before creating a release
