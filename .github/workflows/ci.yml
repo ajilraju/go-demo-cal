@@ -53,6 +53,8 @@ jobs:
           release_name: Release ${{steps.changelog.outputs.tag }}
           draft: false
           prerelease: false
+          git-user-name: 'Github-Actions[bot]'
+          git-user-email: '41898282+github-actions[bot]@users.noreply.github.com'
 
       - name: Upload Release Asset
         id: upload-release-asset 
