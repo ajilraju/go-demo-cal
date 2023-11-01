@@ -28,17 +28,13 @@ jobs:
         run: go build -v -o simple-cal -ldflags "-s -w" ./...
 
       - name: Test
-        run: go test -v ./...
+        run: go test -v ./... 
 
       - name: Archive artifacts
         uses: actions/upload-artifact@v2
         with:
           name: Release Artifacts
           path: ./simple-cal
-          
-      - name: Print github.ref
-        run: echo "GitHub ref: ${{ github.ref }}"
-
 
   release:
     needs: build  # Ensure that the 'build' job is completed before creating a release
