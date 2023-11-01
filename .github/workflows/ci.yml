@@ -56,7 +56,8 @@ jobs:
 
       - name: Upload Release Asset
         id: upload-release-asset 
-        needs: [create_release]
+        needs: create_release
+        if: success()
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
