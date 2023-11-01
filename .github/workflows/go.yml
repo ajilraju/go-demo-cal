@@ -1,47 +1,63 @@
-# This workflow will build a golang project
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
-
-name: Go
+name: Go Release
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
+  release:
+    types:
+      - created  # Trigger when a new release is created
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v2  # Use a specific version of the checkout action
 
-    - name: Set up Go
-      uses: actions/setup-go@v3
-      with:
-        go-version: 1.18
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.18  # Update to your desired Go version
 
-    - name: Build
-      run: go build -v -o simple-cal -ldflags "-s -w" ./...
+      - name: Build
+        run: go build -v -o simple-cal -ldflags "-s -w" ./...
 
-    - name: Test
-      run: go test -v ./...
-      
-    - name: Check code coverage
-      uses: codecov/codecov-action@v3
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
-    
-    - name: Archive artifcats
-      uses: actions/upload-artifact@v3.1.1
-      with:
-        name: Download the App
-        path: ./simple-cal
+      - name: Test
+        run: go test -v ./...
 
-    - name: Publish binary to GitHub
-      uses: softprops/action-gh-release@v1
-      with:
-        files: ./simple-cal
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      if: startsWith(github.ref, 'refs/tags/')
+      - name: Archive artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: Release Artifacts
+          path: ./simple-cal
+
+  release:
+    needs: build  # Ensure that the 'build' job is completed before creating a release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./simple-cal
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get the release ID
+        id: get_release
+        run: echo ::set-output name=release_id::${{ steps.create_release.outputs.id }}
+
+      - name: Upload release artifacts
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./simple-cal
+          asset_name: simple-cal  # Update this to the desired asset name
+          asset_content_type: application/octet-stream
+
