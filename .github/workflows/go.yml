@@ -37,3 +37,11 @@ jobs:
       with:
         name: Download the App
         path: ./simple-cal
+
+    - name: Publish binary to GitHub
+      uses: actions/upload-release-artifact@v4
+      with:
+        url: ${{ github.server_url }}/${{ github.repository_owner }}/${{ github.repository }}/releases/upload_assets
+        name: ${{ github.ref_name }}.tar.gz
+        content-type: application/gzip
+        path: ./simple-cal
