@@ -1,5 +1,5 @@
 # Golang Funny Arithmetic machine 📚✖️➕➗🔢
-This repo contains Golang code for Jenkins CI.
+This repo contains Golang code for Jenkins CI!
 
 ## Run
 ```bash
