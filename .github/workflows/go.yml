@@ -44,3 +44,4 @@ jobs:
         files: ./simple-cal
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      if: startsWith(github.ref, 'refs/tags/')
