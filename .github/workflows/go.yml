@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    tags:
-      - 'v*'
   pull_request:
     branches:
       - main
@@ -34,16 +32,6 @@ jobs:
 
       - name: Archive artifacts
         uses: actions/upload-artifact@v2
-        with:
-          name: Release Artifacts
-          path: ./simple-cal
-
-  release:
-    needs: build  # Ensure that the 'build' job is completed before creating a release
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download artifacts
-        uses: actions/download-artifact@v2
         with:
           name: Release Artifacts
           path: ./simple-cal
