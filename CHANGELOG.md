@@ -1,3 +1,17 @@
+# [1.0.0](https://github.com/ajilraju/go-demo-cal/compare/v0.2.0...v1.0.0) (2023-11-01)
+
+
+### Features
+
+* bump version ([47aa54a](https://github.com/ajilraju/go-demo-cal/commit/47aa54af18d5aa949c0bbcd43794643e9dd94a76))
+
+
+### BREAKING CHANGES
+
+* only test
+
+
+
 # [0.2.0](https://github.com/ajilraju/go-demo-cal/compare/v0.1.1...v0.2.0) (2023-11-01)
 
 
@@ -18,7 +32,7 @@
 
 
 
-# [0.1.0](https://github.com/ajilraju/go-demo-cal/compare/v2.0.1...v0.1.0) (2023-11-01)
+# [0.1.0](https://github.com/ajilraju/go-demo-cal/compare/b44608809231a592bdcac9e2a434c1f3eb2af06c...v0.1.0) (2023-11-01)
 
 
 ### Features
@@ -26,12 +40,9 @@
 * **ci update:** update ci configuration ([d67ec50](https://github.com/ajilraju/go-demo-cal/commit/d67ec5090eb258cf8f66a4d48786bbdbc92a3419))
 
 
+### Reverts
 
-## [2.0.1](https://github.com/ajilraju/go-demo-cal/compare/v2.0.0...v2.0.1) (2023-11-01)
-
-
-
-# [2.0.0](https://github.com/ajilraju/go-demo-cal/compare/v1.1.6...v2.0.0) (2023-11-01)
+* Revert "changed addition" ([b446088](https://github.com/ajilraju/go-demo-cal/commit/b44608809231a592bdcac9e2a434c1f3eb2af06c))
 
 
 
