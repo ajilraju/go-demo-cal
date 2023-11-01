@@ -43,7 +43,7 @@ jobs:
     steps:
       - name: Extract Tag Name
         id: extract_tag
-        run: echo "::set-output name=tag_name::${GITHUB_REF/refs\/tags\//}"
+        run: echo "::set-output name=tag_name::${GITHUB_REF#refs/tags/}"
 
       - name: Create Release
         id: create_release
