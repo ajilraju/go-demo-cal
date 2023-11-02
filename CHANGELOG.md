@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/ajilraju/go-demo-cal/compare/v2.0.0...v2.0.1) (2023-11-02)
+
+
+### Bug Fixes
+
+* artifacts zip issue ([076e570](https://github.com/ajilraju/go-demo-cal/commit/076e5703bdeb740a2e67a14cfe1ddd6cd81595ae))
+
+
+
 # [2.0.0](https://github.com/ajilraju/go-demo-cal/compare/v1.1.1...v2.0.0) (2023-11-02)
 
 
@@ -41,15 +50,6 @@
 ### BREAKING CHANGES
 
 * only test
-
-
-
-# [0.2.0](https://github.com/ajilraju/go-demo-cal/compare/v0.1.1...v0.2.0) (2023-11-01)
-
-
-### Features
-
-* Fixed readme for testing ([1070aef](https://github.com/ajilraju/go-demo-cal/commit/1070aefd352607f985a5730634ed4614ed67adca))
 
 
 
