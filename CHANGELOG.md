@@ -1,3 +1,12 @@
+## [2.0.4](https://github.com/ajilraju/go-demo-cal/compare/v2.0.3...v2.0.4) (2023-11-02)
+
+
+### Bug Fixes
+
+* changed app bin name to scalc ([64f7ff3](https://github.com/ajilraju/go-demo-cal/commit/64f7ff3fcd4bb1ba5c45df7cdbf5e4026dbaf1e5))
+
+
+
 ## [2.0.3](https://github.com/ajilraju/go-demo-cal/compare/v2.0.2...v2.0.3) (2023-11-02)
 
 
@@ -36,15 +45,6 @@
 ### BREAKING CHANGES
 
 * changed bin name to calc
-
-
-
-## [1.1.1](https://github.com/ajilraju/go-demo-cal/compare/v1.1.0...v1.1.1) (2023-11-02)
-
-
-### Bug Fixes
-
-* ignore the binary ([1be8d41](https://github.com/ajilraju/go-demo-cal/commit/1be8d4183774479bbd319fe055e50e6aecd20823))
 
 
 
