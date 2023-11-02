@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/ajilraju/go-demo-cal/compare/v1.0.0...v1.1.0) (2023-11-02)
+
+
+### Features
+
+* test changes ([0c7c2ef](https://github.com/ajilraju/go-demo-cal/commit/0c7c2ef316c98b684c9ac90a2d37c5a86d35f4fa))
+
+
+
 # [1.0.0](https://github.com/ajilraju/go-demo-cal/compare/v0.2.0...v1.0.0) (2023-11-01)
 
 
