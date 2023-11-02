@@ -1,3 +1,12 @@
+## [2.0.3](https://github.com/ajilraju/go-demo-cal/compare/v2.0.2...v2.0.3) (2023-11-02)
+
+
+### Bug Fixes
+
+* fixed the calc.zip assests path ([cd017eb](https://github.com/ajilraju/go-demo-cal/commit/cd017eb8d9ceb11a2177f5702fb2ac8d44b8e064))
+
+
+
 ## [2.0.2](https://github.com/ajilraju/go-demo-cal/compare/v2.0.1...v2.0.2) (2023-11-02)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * ignore the binary ([1be8d41](https://github.com/ajilraju/go-demo-cal/commit/1be8d4183774479bbd319fe055e50e6aecd20823))
-
-
-
-# [1.1.0](https://github.com/ajilraju/go-demo-cal/compare/v1.0.0...v1.1.0) (2023-11-02)
-
-
-### Features
-
-* test changes ([0c7c2ef](https://github.com/ajilraju/go-demo-cal/commit/0c7c2ef316c98b684c9ac90a2d37c5a86d35f4fa))
 
 
 
