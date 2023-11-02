@@ -1,3 +1,12 @@
+## [2.0.2](https://github.com/ajilraju/go-demo-cal/compare/v2.0.1...v2.0.2) (2023-11-02)
+
+
+### Bug Fixes
+
+* ignore cal bin ([e86170f](https://github.com/ajilraju/go-demo-cal/commit/e86170f460d9079a8f88d13d572af88c737e7a2f))
+
+
+
 ## [2.0.1](https://github.com/ajilraju/go-demo-cal/compare/v2.0.0...v2.0.1) (2023-11-02)
 
 
@@ -36,20 +45,6 @@
 ### Features
 
 * test changes ([0c7c2ef](https://github.com/ajilraju/go-demo-cal/commit/0c7c2ef316c98b684c9ac90a2d37c5a86d35f4fa))
-
-
-
-# [1.0.0](https://github.com/ajilraju/go-demo-cal/compare/v0.2.0...v1.0.0) (2023-11-01)
-
-
-### Features
-
-* bump version ([47aa54a](https://github.com/ajilraju/go-demo-cal/commit/47aa54af18d5aa949c0bbcd43794643e9dd94a76))
-
-
-### BREAKING CHANGES
-
-* only test
 
 
 
