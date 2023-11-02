@@ -51,6 +51,10 @@ jobs:
           draft: false
           prerelease: false
 
+      - name: Artifacts to zip
+        run: |
+          zip --junk-paths calc ./calc
+
       - name: Upload Release Asset
         id: upload-release-asset 
         if: ${{ steps.create_release.outcome == 'success' }}
