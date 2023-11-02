@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/ajilraju/go-demo-cal/compare/v1.1.1...v2.0.0) (2023-11-02)
+
+
+### Bug Fixes
+
+* update binary name to calc ([790c38d](https://github.com/ajilraju/go-demo-cal/commit/790c38d28a1ccb0a8681d01c9923c0e1564ebcbe))
+
+
+### BREAKING CHANGES
+
+* changed bin name to calc
+
+
+
 ## [1.1.1](https://github.com/ajilraju/go-demo-cal/compare/v1.1.0...v1.1.1) (2023-11-02)
 
 
@@ -36,17 +50,6 @@
 ### Features
 
 * Fixed readme for testing ([1070aef](https://github.com/ajilraju/go-demo-cal/commit/1070aefd352607f985a5730634ed4614ed67adca))
-
-
-
-## [0.1.1](https://github.com/ajilraju/go-demo-cal/compare/v0.1.0...v0.1.1) (2023-11-01)
-
-
-### Bug Fixes
-
-* fixed ci depends ([4a3d95e](https://github.com/ajilraju/go-demo-cal/commit/4a3d95e545e554aeec74fc69fb9b23533dca5433))
-* fixed ci depends ([1491628](https://github.com/ajilraju/go-demo-cal/commit/1491628faff07f313049fbe404e377efe7d6771f))
-* fixed ci depends with more complex ([ba2b97b](https://github.com/ajilraju/go-demo-cal/commit/ba2b97b6364dfcb477c70097b3ff7d48fe6aa1dc))
 
 
 
