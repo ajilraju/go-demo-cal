@@ -1,3 +1,12 @@
+## [2.0.5](https://github.com/ajilraju/go-demo-cal/compare/v2.0.4...v2.0.5) (2023-11-08)
+
+
+### Reverts
+
+* Revert "Update README.md" ([ae7dff2](https://github.com/ajilraju/go-demo-cal/commit/ae7dff27af4f888cdabe7a1d36e1d25d9774bf6c))
+
+
+
 ## [2.0.4](https://github.com/ajilraju/go-demo-cal/compare/v2.0.3...v2.0.4) (2023-11-02)
 
 
@@ -31,20 +40,6 @@
 ### Bug Fixes
 
 * artifacts zip issue ([076e570](https://github.com/ajilraju/go-demo-cal/commit/076e5703bdeb740a2e67a14cfe1ddd6cd81595ae))
-
-
-
-# [2.0.0](https://github.com/ajilraju/go-demo-cal/compare/v1.1.1...v2.0.0) (2023-11-02)
-
-
-### Bug Fixes
-
-* update binary name to calc ([790c38d](https://github.com/ajilraju/go-demo-cal/commit/790c38d28a1ccb0a8681d01c9923c0e1564ebcbe))
-
-
-### BREAKING CHANGES
-
-* changed bin name to calc
 
 
 
