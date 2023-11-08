@@ -1,3 +1,12 @@
+## [2.0.6](https://github.com/ajilraju/go-demo-cal/compare/v2.0.5...v2.0.6) (2023-11-08)
+
+
+### Reverts
+
+* Revert "chore: test change" ([61a53ee](https://github.com/ajilraju/go-demo-cal/commit/61a53ee7be4125395316169b30018a3f8619eb7a))
+
+
+
 ## [2.0.5](https://github.com/ajilraju/go-demo-cal/compare/v2.0.4...v2.0.5) (2023-11-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * ignore cal bin ([e86170f](https://github.com/ajilraju/go-demo-cal/commit/e86170f460d9079a8f88d13d572af88c737e7a2f))
-
-
-
-## [2.0.1](https://github.com/ajilraju/go-demo-cal/compare/v2.0.0...v2.0.1) (2023-11-02)
-
-
-### Bug Fixes
-
-* artifacts zip issue ([076e570](https://github.com/ajilraju/go-demo-cal/commit/076e5703bdeb740a2e67a14cfe1ddd6cd81595ae))
 
 
 
